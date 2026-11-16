@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables (NEVER commit passwords)
+.env
+**/.env
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
